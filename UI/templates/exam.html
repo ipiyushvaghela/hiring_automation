@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidate Profiles</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Candidate Profiles</h1>
+        <table id="candidateTable">
+            <thead>
+                <tr>
+                    <th>Select</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Job Title</th>
+                    <th>Job ID</th>
+                    <th>Rating</th>
+                </tr>
+            </thead>
+            <tbody id="candidateTableBody">
+                <!-- Table rows will be dynamically generated here -->
+            </tbody>
+        </table>
+        <button onclick="sendEmails()">Send Email</button>
+    </div>
+
+    <script src="static/script.js"></script>
+</body>
+</html>
